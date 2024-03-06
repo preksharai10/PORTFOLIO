@@ -78,3 +78,58 @@ nav{
     object-fit: cover;
     flex-basis: 20%;
 }
+button{
+    background-color: #59B2F4;
+    margin-left: 5rem;
+    height:3rem ;
+    width: 10rem;
+    color:#fff;
+    border-radius:5rem;
+    box-shadow:5px 5px 40px #59B2F4;
+    border-color: white;
+
+}
+.introduction{
+    margin-top: 8rem;
+    color:#fff;
+    margin-left:5rem;
+    text-align: center;
+    margin-right: 3rem;
+}
+
+.introduction h1{
+    font-size: 56px;
+    color:#59B2F4;
+}
+.introduction p{
+    font-size: 20px;
+}
+.Aboutcontent{
+    margin-top:3.5rem;
+}
+.container1, .container2, .container3{
+    margin-top: 5rem;
+    color: white;
+    margin-left: 5rem;
+    border-radius: 3rem;
+    flex-basis: 25%;
+}
+.educationdetails{
+    display:flex;
+    justify-content: center;
+
+}
+
+.container1 h1,.container2 h1, .container3 h1{
+    margin-bottom: 2rem;
+}
+.container1 p,.container2 p, .container3 p{
+    margin-bottom: 1rem;
+    font-size: 20px;
+}
+.container1:hover{
+    border: 1px solid #59B2F4;
+}
+
+
+
