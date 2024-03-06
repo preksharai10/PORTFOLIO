@@ -7,6 +7,7 @@
      background-color:#191f36;
      font-family: "Nunito", sans-serif;
 }
+
 nav{
     display: flex;
     flex-direction:row;
@@ -14,23 +15,28 @@ nav{
     align-items: center;
     height: 13vh;
 }
+
 .nav-links{
     display: flex;
 }
+
 .nav-links li{
     list-style:none;
     margin-right:3rem;
 }
+
 .nav-links li a{
     text-decoration:none;
     color:#fff;
     font-size:26px;
 }
+
 .heading {
     color: white;
     margin: 5rem;
     font-size:30px;
 }
+
 .body-text{
     color:#fff;
     font-size: 34px;
@@ -78,6 +84,7 @@ nav{
     object-fit: cover;
     flex-basis: 20%;
 }
+
 button{
     background-color: #59B2F4;
     margin-left: 5rem;
@@ -87,8 +94,8 @@ button{
     border-radius:5rem;
     box-shadow:5px 5px 40px #59B2F4;
     border-color: white;
-
 }
+
 .introduction{
     margin-top: 8rem;
     color:#fff;
@@ -101,19 +108,24 @@ button{
     font-size: 56px;
     color:#59B2F4;
 }
+
 .introduction p{
     font-size: 20px;
 }
+
 .Aboutcontent{
     margin-top:3.5rem;
 }
+
 .container1, .container2, .container3{
     margin-top: 5rem;
     color: white;
     margin-left: 5rem;
-    border-radius: 3rem;
-    flex-basis: 25%;
+    width:400px;
+    height:350px;
+    text-align: center;
 }
+
 .educationdetails{
     display:flex;
     justify-content: center;
@@ -121,14 +133,19 @@ button{
 }
 
 .container1 h1,.container2 h1, .container3 h1{
+    margin-top: 2rem;
     margin-bottom: 2rem;
 }
+
 .container1 p,.container2 p, .container3 p{
     margin-bottom: 1rem;
     font-size: 20px;
 }
-.container1:hover{
-    border: 1px solid #59B2F4;
+
+.container1:hover, .container2:hover ,.container3:hover{
+    /* border: 1px solid #59B2F4; */
+    border-radius: 2rem;
+    box-shadow: 5px 5px 40px #59B2F4;
 }
 
 
