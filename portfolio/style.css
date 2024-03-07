@@ -6,6 +6,7 @@
     box-sizing: border-box;
      background-color:#191f36;
      font-family: "Nunito", sans-serif;
+     scroll-behavior: smooth;
 }
 
 nav{
@@ -143,10 +144,91 @@ button{
 }
 
 .container1:hover, .container2:hover ,.container3:hover{
-    /* border: 1px solid #59B2F4; */
+   
     border-radius: 2rem;
     box-shadow: 5px 5px 40px #59B2F4;
 }
+#services{
+    margin-top: 10rem;
+    text-align: center;
+    
 
 
+}
+#services h1{
+    font-size: 56px;
+    color: #59B2F4;
+    margin-bottom: 5rem;
+}
+.service-list{
+    display:flex;
+    justify-content: center;
+    color:white
+}
+.service-list-container1 h2, .service-list-container2 h2, .service-list-container3 h2{
+    color:#59B2F4;
+    font-size: 32px;
+}
+.service-list-container1 a, .service-list-container2 a, .service-list-container3 a{
+    color:#fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+    
 
+.service-list-container1 p, .service-list-container2 p, .service-list-container3 p{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    font-size: 20px;
+}
+.icon{
+    font-size: 50px;
+    color: #59B2F4;
+    margin-bottom: 2rem;
+}
+
+.service-list-container1, .service-list-container2, .service-list-container3{
+    height: 400px;
+    width: 300px;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    text-align: left;
+    
+}
+.workimage{
+    height: 500px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 0.5rem;
+    
+}
+.work-list{
+    display: flex;
+    justify-content: center;
+    
+
+}
+.work h1{
+    color: #59B2F4;
+    font-size: 56px;
+    text-align: center;
+    margin-bottom: 5rem;
+}
+.work{
+    margin-top: 5rem;
+    
+}
+.work-list-container1, .work-list-container2, .work-list-container3{
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-bottom: 2rem;
+}
+.contacticon{
+    margin-left: 5rem;
+    margin-right: 0.5rem;
+    color: #59B2F4;
+    margin-bottom: 3rem;
+    font-size: 30px;
+    
+
+}

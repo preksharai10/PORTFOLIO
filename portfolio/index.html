@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/483790aba7.js" crossorigin="anonymous"></script>
     <title>Preksha Rai -The Web Developer </title>
 </head>
 
@@ -14,13 +15,15 @@
             <p>Portfolio.</p>
         </div>
         <ul class="nav-links">
-            <li><a class="active" href="index.html">Home</a></li>
-            <li><a href="pages/about.html">About</a></li>
-            <li><a href="pages/services.html">Services</a></li>
-            <li><a href="pages/contact.html">Contact</a></li>
+            <li><a class="active" href="#main-content">Home</a></li>
+            <li><a href="#about">About</a></li>
+            
+            <li><a href="#services">Services</a></li>
+            <li><a href="#work"> Work</a></li>
+            <li><a href="">Contact</a></li>
         </ul>
     </nav>
-    <div class="main-content">
+    <div class="main-content" id="main-content">
         <div class="body-text">
             <p class="Content bold">Hi, Myself</p>
             <p class="Name bold">Preksha Rai</p>
@@ -32,9 +35,16 @@
         </div>
 
     </div>
+    <div class="communicationicon">
+        <i class="fa-brands fa-linkedin contacticon"></i>
+        <i class="fa-solid fa-envelope contacticon"></i>
+        <i class="fa-brands fa-twitter contacticon"></i>
+        <i class="fa-brands fa-facebook contacticon"></i>
+        <i class="fa-brands fa-square-instagram contacticon"></i>
+    </div>
     <button type="download">Download CV</button>
-    <div class="introduction">
-        <h1 class="Blue">About me</h1>
+    <div class="introduction" id="about">
+        <h1 class="Blue">About Me</h1>
         <div class=" Aboutcontent">
             <p> My name is Preksha Rai, I'm a undergraduate at MCKV Institute of Engineering, graduating in the year 2025 in Information Technology. I reside in Rishra. Few of my favourite pastime is to read novels, painting and I am passionate about travelling. </p>
         <br>
@@ -73,10 +83,49 @@
         </div>
     </div>
 
-    <div class="works">
-        <h1>works</h1>
-    </div>
+    <div id="services">
+        <h1 >My Services</h1>
+        <div class="service-list">
+            <div class="service-list-container1">
+                
+                <i class="fa-solid fa-angles-right icon"></i>
+                <h2>Problem Solving</h2>
+                <p>Problem Solving has one of the most loved job. Here are some of the codes.
+                </p>
+               <a href="">Learn more</a>
+            </div>
+            <div class="service-list-container2">
+                <i class="fa-solid fa-code icon"></i>
+                <h2>Web Designing</h2>
+                <p>Web development and designing has been the most attractive thing as a developer for me.</p>
+               <a href="">Learn more</a>
 
+            </div>
+            <div class="service-list-container3">
+                <i class="fa-solid fa-paintbrush icon"></i>
+                <h2>Painting</h2>
+                <p>Painting has been the best way to reflect my way of thinking and loving the nature.</p>
+               <a href="">Learn more</a>
+            </div>
+        </div>        
+    </div>
+    <div class="work" id="work">
+        <h1>My Work</h1>
+        <div class="work-list">
+            <div class="work-list-container1">
+                <img src="work-2.png" alt="" class="workimage">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque, natus.</p>
+            </div>
+            <div class="work-list-container2">
+                <img src="work-3.png" alt="" class="workimage">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque, natus.</p>
+            </div>
+            <div class="work-list-container3">
+                <img src="work-4.jpg" alt="" class="workimage">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Itaque, natus.</p>
+            </div>
+        </div>
+    </div>
 
 
 </body>
