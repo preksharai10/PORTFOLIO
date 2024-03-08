@@ -4,11 +4,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-     background-color:#191f36;
+     /* background-color:#191f36; */
      font-family: "Nunito", sans-serif;
      scroll-behavior: smooth;
 }
 
+body{
+    background-color:#191f36;
+}
 nav{
     display: flex;
     flex-direction:row;
@@ -86,7 +89,7 @@ nav{
     flex-basis: 20%;
 }
 
-button{
+.downloadbutton{
     background-color: #59B2F4;
     margin-left: 5rem;
     height:3rem ;
@@ -231,4 +234,62 @@ button{
     font-size: 30px;
     
 
+}
+.contact h1{
+    color: #59B2F4;
+    font-size: 56px;
+    text-align:center;
+    margin-bottom: 5rem;
+}
+.input-box{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+footer{
+   
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color: #4e60a7;
+}
+
+.inputfeild{
+    width: 60%;
+    border: 0;
+    outline: none;
+    background-color: #59B2F4;
+    padding: 15px;
+    margin: 15px 0;
+    color: #262626;
+    font-size: 18px;
+    border-radius: 6px;
+    letter-spacing: 0.3rem;
+
+}
+form{
+    width: 95vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+    /* background:#fff; */
+    /* background:  linear-gradient(to right bottom,rgba(255,255,255,0.4),rgba(255,255,255,0.2));
+    backdrop-filter:blur(10rem); */
+
+
+}
+
+.sendbutton{
+    background-color: #59B2F4;
+    /* margin-left: 18rem; */
+    height:3rem ;
+    width: 10rem;
+    color:#fff;
+    border-radius:5rem;
+    box-shadow:5px 5px 40px #59B2F4;
+    border-color: white;
+    
 }
