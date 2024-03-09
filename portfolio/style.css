@@ -277,16 +277,14 @@ nav {
     margin-bottom: 2rem;
 }
 
-footer {
-
+.footer {
     height: 5vh;
     display: flex;
     align-items: center;
     justify-content: center;
     color: #fff;
     background-color: #4e60a7;
-    /* position:fixed;
-    bottom:0 */
+    margin-bottom: 0;
 }
 
 .inputfeild {
@@ -300,7 +298,6 @@ footer {
     font-size: 18px;
     border-radius: 6px;
     letter-spacing: 0.3rem;
-
 }
 
 form {
