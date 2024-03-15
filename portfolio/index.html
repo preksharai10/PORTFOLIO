@@ -14,14 +14,16 @@
         <div class="heading">
             <p>Portfolio.</p>
         </div>
-        <ul class="nav-links">
+        <ul class="nav-links" id="sidemenu">
             <li><a class="active" href="#main-content">Home</a></li>
             <li><a href="#about">About</a></li>
 
             <li><a href="#services">Services</a></li>
             <li><a href="#portfolio"> Work</a></li>
             <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
         </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
     </nav>
     <div class="main-content" id="main-content">
         <div class="body-text">
@@ -126,14 +128,14 @@
                 <a href="">Learn more</a>
             </div>
         </div>
-    </div>
+    </div> 
 
 
 
 
 
     <!-- need to update data -->
-    <div id="portfolio">
+     <div id="portfolio">
         <div class="container">
             <h1 class="sub-title">My Work</h1>
             <div class="work-list">
@@ -187,7 +189,20 @@
         <div class="footer">
             <p>Copyright &copy; Preksha <i class="fa-solid fa-user"></i> all rights reserved</p>
         </div>
-    </div>
+    </div> 
+
+
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+
+        function closemenu(){
+            sidemenu.style.right="-300px";
+        }
+    </script>
 </body>
 
 </html>

@@ -27,7 +27,7 @@ nav {
 
 .nav-links li {
     list-style: none;
-    margin-right: 3rem;
+    margin-right: 4rem;
 }
 
 .nav-links li a {
@@ -83,6 +83,10 @@ nav {
     color: #59B2F4;
 }
 
+nav .fa-solid{
+    display: none;
+}
+
 .image {
     width: 400px;
     height: 400px;
@@ -97,7 +101,7 @@ nav {
 .downloadbutton {
     text-decoration: none;
     color: white;
-    margin-left: 7rem;
+    margin-left: 5rem;
     width: fit-content;
     background-color: #59B2F4;
     display: block;
@@ -172,6 +176,7 @@ nav {
 #services {
     margin-top: 10rem;
     text-align: center;
+   
 }
 
 #services h1 {
@@ -181,7 +186,6 @@ nav {
 }
 
 .service-list {
-    width: 100vw;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -224,8 +228,8 @@ nav {
 .service-list-container3 {
     height: 400px;
     width: 300px;
-    margin-left: 5rem;
-    margin-right: 5rem;
+    margin-left: 4.5rem;
+    margin-right: 4.5rem;
     text-align: left;
 
 }
@@ -259,13 +263,13 @@ nav {
 /* } */
 
 .contacticon {
-    margin-left: 5rem;
+    display: flex;
+    flex-direction: row;
+    margin-left: 7rem;
     margin-right: 0.5rem;
     color: #59B2F4;
     margin-bottom: 3rem;
     font-size: 30px;
-
-
 }
 
 .contact h1 {
@@ -419,9 +423,34 @@ form {
     .downloadbutton {
         margin-left: 9rem;
     }
+
+    .communicationicon{
+        margin-top: 2rem;
+        margin-left: 2rem;
+    }
+}
+
+@media only screen and (max-width :1350px) {
+    .downloadbutton {
+        margin-left: 7rem;
+    }
+
+    .communicationicon{
+        margin-top: 2rem;
+        margin-left: 0rem;
+    }
 }
 
 @media only screen and (max-width :1024px) {
+
+    .communicationicon{
+        margin-top: 2rem;
+        margin-left: 2rem;
+    }
+
+    .downloadbutton {
+        margin-left: 9rem;
+    }
     .body-text {
         color: #fff;
         font-size: 30px;
@@ -439,6 +468,43 @@ form {
     }
 }
 
+@media only screen and (max-width :950px) {
+
+    nav .fa-solid{
+        display: block;
+        font-size: 25px;
+        margin-right: 3rem;
+        color:white;
+    }
+    nav ul{
+        background: #59B2F4;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        width: 300px;
+        height: 150vh;
+        padding-top: 50px;
+        z-index: 2;
+        transition: right 0.5s;
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav ul li{
+        margin:25px;
+    }
+
+    .nav-links li a:hover {
+        color: #191f36;
+    }
+
+    nav ul .fa-solid{
+        position: absolute;
+        top: 25px;
+        left:25px;
+        cursor: pointer;
+    }
+}
 
 @media only screen and (max-width :768px) {
     .body-text {
@@ -488,5 +554,82 @@ form {
         height: 300px;
         text-align: center;
     }
+
+    .communicationicon {
+        justify-content: center;
+        font-size: 24px;
+    }
 }
 
+
+@media only screen and (max-width :650px) {
+    .downloadbutton {
+        margin-left: 15rem;
+    }
+
+    .contacticon{
+        margin-left: 5rem;
+    }
+}
+
+
+@media only screen and (max-width :550px) {
+    .downloadbutton {
+        margin-left: 13rem;
+    }
+
+    .contacticon{
+        margin-left: 4rem;
+    }
+}
+
+
+@media only screen and (max-width :550px) {
+    .downloadbutton {
+        margin-left: 13rem;
+    }
+
+    .contacticon{
+        margin-left: 4rem;
+    }
+}
+
+
+@media only screen and (max-width :450px) {
+    .downloadbutton {
+        margin-left: 9rem;
+    }
+
+    .contacticon{
+        margin-left: 2rem;
+    }
+
+    .image {
+        margin-left: 4rem;
+    }
+
+    .communicationicon {
+        margin-left: 5rem;
+    }
+
+    .container1,
+    .container2,
+    .container3 {
+        margin-left: 2.5rem;
+    }
+
+    #services {
+        margin-top: 5rem;
+        margin-left: 2rem;
+    }
+
+    .service-list-container1,
+    .service-list-container2,
+    .service-list-container3 {
+        height: 400px;
+    }
+
+    form{
+        margin-left: 1.5rem;
+    }
+}
