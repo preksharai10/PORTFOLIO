@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* background-color:#191f36; */
     font-family: "Nunito", sans-serif;
     scroll-behavior: smooth;
 }
@@ -253,14 +252,6 @@ nav .fa-solid{
 .work {
     margin-top: 5rem;
 }
-
-/* .work-list-container1,
-.work-list-container2,
-.work-list-container3 { */
-/* margin-left: 3rem; */
-/* margin-right: 3rem;
-    margin-bottom: 2rem; */
-/* } */
 
 .contacticon {
     display: flex;
@@ -584,15 +575,6 @@ form {
 }
 
 
-@media only screen and (max-width :550px) {
-    .downloadbutton {
-        margin-left: 13rem;
-    }
-
-    .contacticon{
-        margin-left: 4rem;
-    }
-}
 
 
 @media only screen and (max-width :450px) {
@@ -632,4 +614,30 @@ form {
     form{
         margin-left: 1.5rem;
     }
+}
+
+
+@media only screen and (max-width :550px) {
+    .downloadbutton {
+        margin-left: 13rem;
+    }
+
+    .contacticon{
+        margin-left: 4rem;
+    }
+}
+
+@media only screen and (max-width :450px) {
+   .body-text{
+    width: 49vh;
+    margin-top: 5rem;
+   }
+
+   .downloadbutton {
+    margin-left: 8rem;
+}
+
+.communicationicon{
+    margin-left: -1rem;
+}
 }
