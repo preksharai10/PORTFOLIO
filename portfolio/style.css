@@ -586,7 +586,7 @@ form {
 
 @media only screen and (max-width :450px) {
     .downloadbutton {
-        margin-left: 9rem;
+        margin-left: 7rem;
     }
 
     .contacticon {
@@ -598,7 +598,7 @@ form {
     }
 
     .communicationicon {
-        margin-left: 5rem;
+        margin-left: 3rem;
     }
 
     .container1,
@@ -620,6 +620,15 @@ form {
 
     form {
         margin-left: 1.5rem;
+    }
+
+    .image {
+        margin-left: 2rem;
+    }
+
+    .body-text {
+        margin-top: 5rem;
+        margin-left: 3rem;
     }
 }
 
