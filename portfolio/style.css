@@ -82,7 +82,7 @@ nav {
     color: #59B2F4;
 }
 
-nav .fa-solid{
+nav .fa-solid {
     display: none;
 }
 
@@ -175,7 +175,7 @@ nav .fa-solid{
 #services {
     margin-top: 10rem;
     text-align: center;
-   
+
 }
 
 #services h1 {
@@ -415,7 +415,7 @@ form {
         margin-left: 9rem;
     }
 
-    .communicationicon{
+    .communicationicon {
         margin-top: 2rem;
         margin-left: 2rem;
     }
@@ -426,7 +426,7 @@ form {
         margin-left: 7rem;
     }
 
-    .communicationicon{
+    .communicationicon {
         margin-top: 2rem;
         margin-left: 0rem;
     }
@@ -434,7 +434,7 @@ form {
 
 @media only screen and (max-width :1024px) {
 
-    .communicationicon{
+    .communicationicon {
         margin-top: 2rem;
         margin-left: 2rem;
     }
@@ -442,6 +442,7 @@ form {
     .downloadbutton {
         margin-left: 9rem;
     }
+
     .body-text {
         color: #fff;
         font-size: 30px;
@@ -461,13 +462,14 @@ form {
 
 @media only screen and (max-width :950px) {
 
-    nav .fa-solid{
+    nav .fa-solid {
         display: block;
         font-size: 25px;
         margin-right: 3rem;
-        color:white;
+        color: white;
     }
-    nav ul{
+
+    nav ul {
         background: #59B2F4;
         position: fixed;
         top: 0;
@@ -481,18 +483,18 @@ form {
         flex-direction: column;
     }
 
-    nav ul li{
-        margin:25px;
+    nav ul li {
+        margin: 25px;
     }
 
     .nav-links li a:hover {
         color: #191f36;
     }
 
-    nav ul .fa-solid{
+    nav ul .fa-solid {
         position: absolute;
         top: 25px;
-        left:25px;
+        left: 25px;
         cursor: pointer;
     }
 }
@@ -558,7 +560,7 @@ form {
         margin-left: 15rem;
     }
 
-    .contacticon{
+    .contacticon {
         margin-left: 5rem;
     }
 }
@@ -569,8 +571,13 @@ form {
         margin-left: 13rem;
     }
 
-    .contacticon{
+    .contacticon {
         margin-left: 4rem;
+    }
+
+    .body-text {
+        width: 49vh;
+        margin-top: 5rem;
     }
 }
 
@@ -582,7 +589,7 @@ form {
         margin-left: 9rem;
     }
 
-    .contacticon{
+    .contacticon {
         margin-left: 2rem;
     }
 
@@ -611,33 +618,59 @@ form {
         height: 400px;
     }
 
-    form{
+    form {
         margin-left: 1.5rem;
     }
 }
 
 
-@media only screen and (max-width :550px) {
+@media only screen and (max-width :375px) {
     .downloadbutton {
-        margin-left: 13rem;
+        margin-left: 6rem;
     }
 
-    .contacticon{
+    .contacticon {
+        margin-left: 1rem;
+    }
+
+    .image {
+        margin-left: 2rem;
+    }
+
+    .work {
+        margin-top: 1rem;
+    }
+
+    .body-text {
+        margin-top: 5rem;
+        margin-left: 3rem;
+    }
+
+    .container1,
+    .container2,
+    .container3{
+        margin-left: 1.5rem;
+    }
+}
+
+@media only screen and (max-width :320px) {
+
+    .downloadbutton {
         margin-left: 4rem;
     }
-}
 
-@media only screen and (max-width :450px) {
-   .body-text{
-    width: 49vh;
-    margin-top: 5rem;
-   }
+    .contacticon {
+        margin-left: 0;
+    }
 
-   .downloadbutton {
-    margin-left: 8rem;
-}
+    .container1,
+    .container2,
+    .container3{
+        margin-left: 0.5rem;
+        height: 350px;
+    }
 
-.communicationicon{
-    margin-left: -1rem;
-}
+    .service-list-container1, .service-list-container2, .service-list-container3 {
+        height: 465px;
+    }
 }
